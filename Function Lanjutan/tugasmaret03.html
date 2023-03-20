@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function lanjutan</title>
+</head>
+
+<body>
+    <script>
+     
+
+        // Function Split
+        let star = "Hello, World!";
+        let arr = str.split(", ");
+        document.writeln(star);
+        // output: ["Hello", "World!"]
+        // Function Slice
+        let star = "Hello, World!";
+        let slicedStr = star.slice(7, 12);
+        document.writeln(slicedStr);
+        // output: "World"
+        // Function charAt
+        let star = "Hello, World!";
+        let char = star.charAt(1);
+        document.writeln(star);
+        // output: "e"
+        // Function Match
+        let star = "Hello, World!";
+        let matched = star.match(/o/g);
+        document.writeln(matched);
+        // output: ["o", "o"]
+        // Function Search
+        let star = "Hello, World!";
+        let pos = star.search(/World/);
+        Document.writeln(pos);
+        // output: 7
+        // // Function toString
+        let num = 42;
+        let str = num.toString();
+        document.writeln(star);
+        // output: "42"
+        // Function getDate
+        let now = new Date();
+        let date = now.getDate();
+        document.writeln(date);
+        // output: tanggal sekarang (misal: 17)
+        // Function getMonth
+        let now = new Date();
+        let month = now.getMonth();
+        document.writeln(month);
+        // output: bulan sekarang (misal: 2 untuk Maret)
+        // perlu diingat bahwa nilai bulan dimulai dari 0 (Januari) hingga 11 (Desember).
+        // Function getFullYear
+        let now = new Date();
+        let year = now.getFullYear();
+        document.writeln(year); // output: tahun sekarang (misal: 2023)
+        // Function setTime
+        let date = new Date();
+        document.writeln(date); // Output: tanggal saat ini
+        let timestamp = 1615986565000; // contoh nilai timestamp
+        date.setTime(timestamp);
+        document.writeln(date); 
+        // Output: tanggal sesuai dengan timestamp yang diberikan
+    </script>
+</body>
+
+</html>
